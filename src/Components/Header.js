@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import '../Styles/Header.css'
 import logo from '../img/Logo_Type2 1.png'
 import fruit from '../img/main_img_fruit2.png'
 
 
-class Header extends Component {
-    render() {
+export default function Header() {
         return (
             <div className='section_first'>
                     <div className="hamburger-menu">
@@ -63,12 +63,7 @@ class Header extends Component {
                                 ответственную миссию, положив в основу своей 
                                 деятельности безупречную свежесть предлагаемой 
                                 продукции и честность по отношению к партнерам. </p>   
-                    </div>
-                    
+                    </div>                    
             </div>
-            
         );
-    }
 }
-
-export default Header;

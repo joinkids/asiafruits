@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import '../Styles/Buying.css'
 import map from '../img/Map.jpg'
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A036f856cb6cd4818357bc1ddbc287ebd690d0318ed2608846d92ae48b33b620b&amp;width=578&amp;height=330&amp;lang=ru_RU&amp;scroll=true"></script>
 
 
-class Buying extends Component {
-    render() {
+export default function Buying() {
         return (
             <div id='thirdId' className='section_third'>
                 <div className='container'>
@@ -40,7 +40,4 @@ class Buying extends Component {
                 </div>
             </div>
         );
-    }
 }
-
-export default Buying;

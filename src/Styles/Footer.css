@@ -1,0 +1,195 @@
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(../img/BG_Black12.png) top center no-repeat;
+}
+
+.footer h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.section_footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section_footer img {
+  padding-top: 30px;
+}
+
+.blockTextF, .blockTextS {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.blockTextF, .blockTextS p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.blockTextS {
+  padding-bottom: 30px;
+}
+
+.blockTextF p {
+  padding: 0 50px 0 50px ;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer {
+    width: 768px;
+    max-height: 526px;
+    background: url(../img/BG_Black12.png) top center repeat;
+    background-size: contain;
+  }
+  
+  .footer h1 {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .section_footer img {
+    padding-top: 10px;
+    width: 6%;
+  }
+
+  .blockTextF, .blockTextS {
+    padding: 5px 0 10px ;
+
+  }
+  .blockTextF, .blockTextS p {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .blockTextF p {
+    padding: 0 20px 0 20px ;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .footer {
+    max-width: 414px;
+    max-height: 550px;
+    background: url(../img/BG_Black12.png) top center no-repeat;
+  }
+
+  .footer h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+  }
+  
+  .section_footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section_footer img {
+    padding-top: 30px;
+    width: 15%;
+  }
+  
+  .blockTextF, .blockTextS {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .blockTextF, .blockTextS p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .blockTextS {
+    padding-bottom: 20px;
+  }
+  
+  .blockTextF p {
+    padding: 0 50px 0 50px ;
+  }
+}
+
+  @media screen and (max-width: 400px) {
+    .footer {
+      max-width: 322px;
+      min-height: 200px;
+      background: url(../img/BG_Black12.png) top center no-repeat;
+    }
+    
+    .footer h1 {
+      text-align: center;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: white;
+    }
+    
+    .section_footer {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .section_footer img {
+      padding-top: 18px;
+      width: 15%;
+    }
+    
+    .blockTextF, .blockTextS {
+      display: flex;
+      padding-top: 10px;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+    .blockTextF, .blockTextS p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 17px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .blockTextS {
+      padding-bottom: 20px;
+    }
+    
+    .blockTextF p {
+      padding: 0 10px;
+    }
+
+  }

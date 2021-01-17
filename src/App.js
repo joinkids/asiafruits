@@ -8,17 +8,16 @@ import Footer from './Components/Footer'
 
 
 
-class App extends Component {
-  render() {
+export default function App(props) {
     return (
       <div>
         <Header/>
-        <Products/>
+        <Products itemData = {props.state.products.itemData}/>
         <Buying/>
         <Footer/>
       </div>
     );
   }
-}
 
-export default App;
+
+

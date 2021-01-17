@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import '../Styles/Footer.css'
 import foologo from '../img/LogoType2.png'
 
-class Footer extends Component {
-    render() {
+export default function Footer() {
         return (
             <div id='footerId' className='footer'>
                     <h1>Контакты</h1>
@@ -21,7 +21,4 @@ class Footer extends Component {
                     </div>
             </div>    
         ); 
-    }
 }
-
-export default Footer;
